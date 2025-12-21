@@ -4,7 +4,7 @@ local player = players.LocalPlayer
 local character = player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 
-local replicatedStorage = game:GetService("ReplicatedStorage")
+local replicatedStorage = game:GetService("ReplicatedStorage")  
 local animations = replicatedStorage:WaitForChild("Animations")
 local katanaSliceAnimations = animations:WaitForChild("KatanaSliceAnimations")
 
